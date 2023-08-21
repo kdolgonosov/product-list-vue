@@ -48,6 +48,7 @@ export default {
 }
 .addForm__title {
     font-size: 24px;
+    color: #fff;
 }
 .addForm__input {
     padding: 10px;
@@ -60,5 +61,8 @@ export default {
 }
 .addForm__button:hover {
     cursor: pointer;
+}
+.addForm__button:disabled {
+    cursor: default;
 }
 </style>

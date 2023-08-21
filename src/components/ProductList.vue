@@ -14,7 +14,7 @@
                 v-if="product.active"
                 @click="$emit('remove', product)"
             >
-                Удалить
+                Вычеркнуть
             </button>
         </li>
     </ul>
@@ -42,18 +42,20 @@ export default {
 }
 .product {
     padding: 10px;
-    border: 2px solid #3d0b37;
+    border: 2px solid rgb(194, 199, 255);
     border-radius: 35px;
-    background-color: #cbeaa6;
+    background-color: #6e75a8;
+    color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 5px;
 }
 .product__delete-btn:hover {
     cursor: pointer;
 }
 .product_notActive {
-    background-color: #fff;
+    background-color: #333650;
 }
 .product__name_notActive {
     text-decoration: line-through;

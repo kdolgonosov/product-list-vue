@@ -56,7 +56,7 @@ export default {
     box-sizing: border-box;
 }
 .app {
-    background-color: #f3f9d2;
+    background-color: #8d91c7;
     min-height: 100vh;
 }
 .page {
